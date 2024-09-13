@@ -169,7 +169,7 @@ function showAllBtns() {
   
   
    profilePic.style.height = '70px';
-   nameAndRole.style.display = 'flex';
+   
    
    
    accountInfo.style.cssText = 'height: 120px; width: 100%; margin: 10px 0 20px; 0';
@@ -177,6 +177,7 @@ function showAllBtns() {
    
    setTimeout(() => {
      buttonContainer.innerHTML = buttonData;
+     nameAndRole.style.display = 'flex';
    }, 300)
    buttonContainer.style.opacity = 1;
 };
